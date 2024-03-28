@@ -1,0 +1,14 @@
+{
+	"extends": "../tsconfig.json",
+	"compilerOptions": {
+		"rootDir": "./src/general/infraestructure/ui/react",
+		"outDir": "./dist",
+    "target": "ES6",
+    "module": "CommonJS",
+		"strict": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    // Aquí se pueden definir más configuraciones, tenemos que revisar si es necesario hacerlo
+  },
+  "include": ["./src/components/general/infraestructure/ui/react/*.tsx"]
+}
